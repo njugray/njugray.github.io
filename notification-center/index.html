@@ -9,7 +9,7 @@
 
 </head>
 <body>
-  <div class="container">
+  <div class="container" ng-controller="notifyCtrl">
   <h1>DEMO</h1>
   <notification-center nf-messages="messages" nf-name="global" style="position:fixed;top:0;left:5%;width:90%;z-index:999">
       <message ng-repeat="message in messages" nf-message="message">
